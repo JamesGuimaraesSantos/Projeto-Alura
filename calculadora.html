@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="paginaCalculadora">
+    <div id="conteinerCalculadora">
+        <div class="topo">
+            <div class="navegacaoHorizontal">
+                <ol>
+                    <li> <a href="convesor de temperaturas.html"> 🌡️ Conversor de temperaturas </a> </li>
+                    <li class="selecionado"> <a href=""> 🔢 Calculadora </a> </li>
+                    <li> <a href="mentalista.html"> 🔮 Mentalista </a> </li>
+                    <li> <a href="galeria.html">🎬 AluraFlix </a> </li>
+                    <li> <a href="tabelaDeClassificacao.html"> 🏆 Tabela de classificação </a> </li>
+                    <li> <a href="superTrunfo.html"> 🃏 Supertrunfo </a> </li>
+                    <li> <a href="index.html">🌐 Certificado</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <div id="calculadora">
+          <form action="">
+                <fieldset class="agrupamentoDeInputs">
+                    <legend id="legendCalculadora" >Insira os valores para o calculo</legend>
+                    <input type="text" placeholder="Insira o 1° valor" id="primeiroValor">
+                    <input type="text" placeholder="Insira o 2° valor" id="segundoValor">
+                    <p id="resultadoCalculadora"></p>     
+                </fieldset>
+
+                <fieldset class="agrupamentoDeInputs">
+                        <input type="button" value="Multiplicação" onclick="multiplicacao()">
+
+                        <input type="button" value="Adição" onclick="adicao()">
+                        
+                        <input type="button" value="Subtração" onclick="subtracao()">
+
+                        <input type="button" value="Divisão" onclick="divisao()">
+                </fieldset>
+         </form>
+
+        </div>
+    </div>   
+
+    <script src="Scripts/app.js"></script>
+</body>
+
+</html>

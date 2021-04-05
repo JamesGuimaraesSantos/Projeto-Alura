@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="galeria">
+    <div class="topo">
+    <div class="navegacaoHorizontal">
+        <ol>
+            <li> <a href="convesor de temperaturas.html"> 🌡️ Conversor de temperaturas </a> </li>
+            <li> <a href="calculadora.html"> 🔢 Calculadora </a> </li>
+            <li> <a href="mentalista.html"> 🔮 Mentalista </a> </li>
+            <li class="selecionado"> <a href="">🎬 AluraFlix </a> </li>
+            <li> <a href="tabelaDeClassificacao.html"> 🏆 Tabela de classificação </a> </li>
+            <li> <a href="superTrunfo.html"> 🃏 Supertrunfo </a> </li>
+            <li> <a href="index.html">🌐 Certificado</a></li>
+        </ol>
+    </div>
+    </div>
+            <div id="conteudoPrincipal">
+            <fieldset>
+                <legend id="legendGaleria">Salve seus filmes</legend>          
+                <div >
+                    <input type="text" name="nome" id="filme" placeholder="Insera a url para a capa do filme">      
+                    <input type="button" onclick="adicionarFilme()" value="Adicionar" id="botao">     
+                </div>
+            </fieldset> 
+             </div>
+        <div id="listaFilmes"></div>
+    
+
+    
+<script src="Scripts/app.js"></script>
+
+</body>
+</html>

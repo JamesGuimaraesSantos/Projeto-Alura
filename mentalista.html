@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentalista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="mentalista">
+    <div class="topo">
+        <div class="navegacaoHorizontal">
+            <ol>
+                <li> <a href="convesor de temperaturas.html"> 🌡️ Conversor de temperaturas </a> </li>
+                <li> <a href="calculadora.html"> 🔢 Calculadora </a> </li>
+                <li class="selecionado"> <a href=""> 🔮 Mentalista </a> </li>
+                <li> <a href="galeria.html">🎬 AluraFlix </a> </li>
+                <li> <a href="tabelaDeClassificacao.html"> 🏆 Tabela de classificação </a> </li>
+                <li> <a href="superTrunfo.html"> 🃏 Supertrunfo </a> </li>
+                <li> <a href="index.html">🌐 Certificado</a></li>
+            </ol>
+        </div>
+    </div>
+    <form action="" id="formularioMentalista">
+        <fieldset id="fieldsetMentalista"> <legend>Voce consegue adivinha qual o número a máquina está "pensando"???</legend>
+        <input type="text" id="valor" placeholder="Chute um valor de 0 a 10"> 
+        <input type="button" value="Adivinhe" onclick="capturar()">
+        <p id="resultadoAdivinhacao"></p>
+        <p id="chancesRestantes"></p>
+     </fieldset>
+    </form>
+   
+   
+   
+    <script src="Scripts/app.js"></script>
+</body>
+</html>
